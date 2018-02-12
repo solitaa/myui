@@ -1,0 +1,309 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+.wrapper {
+    background-color: #f3f3f3;
+    min-height: 800px;
+    width: 100%;
+}
+
+.left_div {
+    width: 22%;
+    padding-top: 10px;
+    display: inline-block;
+    min-height: 800px;
+}
+
+.names_ul {
+    list-style-type: none;
+    list-style-image: none;
+    padding-left: 20px;
+}
+
+.names_li {
+    margin: 3px 0;
+    background-image: none;
+    color: #000000;
+}
+
+.title {
+    margin: 0 auto;
+    width: 60px;
+}
+
+.icon, .browse, .structure, .insert, .delete, .empty, .search, .edit {
+    padding: 0 !important;
+    width: 15px;
+    height: 15px;
+    border: 0px solid;
+    border-radius: 2px;
+}
+
+.icon, .browse {
+    background-image: url('../image/list_icon.png') !important;
+}
+
+.structure {
+    background-image: url('../image/browse.png') !important;
+}
+
+.insert {
+    background-image: url('../image/insert.PNG') !important;
+}
+
+.delete {
+    border-radius: 10px;
+    background-image: url('../image/delete.PNG') !important;
+}
+
+.empty {
+    background-image: url('../image/empty.PNG') !important;
+}
+
+.search {
+    background-image: url('../image/search.png') !important;
+}
+
+.edit {
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 0;
+    background-image: url('../image/edit.PNG') !important;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.dropdown-menu > li > a {
+    padding: 0 10px;
+}
+
+.dropdown, .dropdown_open {
+    border: 1px solid;
+    border-color: #aaaaaa;
+    background-color: #ffffff;
+    margin-right: 10px;
+    height: 27px;
+    padding: 2px 8px;
+    margin-bottom: 20px;
+}
+
+.dropdown a:hover, .dropdown_open a:hover {
+    text-decoration: none;
+}
+
+.open > .dropdown-menu {
+    width: 100%;
+}
+
+.caret {
+    float: right;
+    margin: 8px 3px 0 0;
+}
+
+.right_div {
+    background-color: #ffffff;
+    border-left: 1px solid;
+    border-color: #aaaaaa;
+    min-height: 800px;
+    width: 78%;
+    display: inline-block;
+    float: right;
+}
+
+.menu_bar {
+    width: 100%;
+    height: 25px;
+    background-color: #888888;
+    margin-left: 5px;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+
+.menu_bar a {
+    color: #ffffff;
+}
+
+.item {
+    color: #fff;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 3px;
+    font-size: 82%;
+    border-top: none;
+}
+
+.table_data {
+    width: 98%;
+    margin: 2px 6px;
+}
+
+.row_commands_div {
+
+}
+
+.name_in_form {
+    display: inline;
+}
+
+.columns_in_form {
+    display: inline;
+}
+
+.ok_in_form {
+
+}
+
+.apache_version {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #aaaaaa;
+    width: 350px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.web_server_title {
+    background-color: #aaaaaa;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.web_server_title h3 {
+    color: #ffffff;
+    padding: 6px;
+}
+
+.apache_version p {
+    margin-left: 10px;
+}
+
+.ok_in_form {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #d3dce3;
+    height: 40px;
+    border-top: #aaaaaa 1px solid;
+}
+
+.ok_in_form input {
+    float: right;
+    margin: 7px 50px;
+    border-radius: 11px;
+    border-color: #aaaaaa;
+    background-color: #eeeeee;
+    width: 35px;
+}
+
+.delete_td a {
+    padding-right: 15px;
+}
+
+.success_result {
+    min-height: 30px;
+    border-radius: 5px;
+    width: 98%;
+    border: 1px solid;
+    border-color: #a2d246;
+    background-color: #ebf8a4;
+    margin: 5px 5px 10px;
+}
+
+.success_result p, .error_result p, .sql p {
+    margin: 8px 10px;
+}
+
+.error_result {
+    min-height: 30px;
+    border-radius: 5px;
+    width: 98%;
+    border: 1px solid;
+    border-color: #800000;
+    background-color: #ffc0cb;
+    margin: 5px 5px 10px;
+}
+
+.sql {
+    min-height: 50px;
+    border-radius: 5px;
+    width: 98%;
+    border: 1px solid;
+    border-color: #bbbbbb;
+    background-color: #e5e5e5;
+    margin: 5px 5px 10px;
+}
+
+.number_input {
+    width: 80px;
+}
+
+.form_input_ok {
+    float: right;
+    margin: 3px 10px;
+    border: 1px solid;
+    border-color: #aaaaaa;
+    border-radius: 10px;
+    background-color: #dfdfdf;
+}
+
+.regexp_message {
+    font-size: 15px;
+    color: #FF0000;
+}
+
+.pages {
+    display: inline;
+    margin-left: 10px;
+}
+
+.sql_div {
+
+}
+
+.sql_image {
+    width: 68px;
+    height: 31px;
+    border: 0px solid;
+    border-radius: 2px;
+    margin: 5px;
+    background-image: url('../image/sql.PNG') !important;
+}
+
+.sql_query_div {
+    background-color: #eeeeee;
+    width: 600px;
+    border: 1px solid;
+    border-color: #aaaaaa;
+    margin-left: 5px;
+    border-radius: 15px;
+}
+
+.sql_query_div  textarea {
+    margin: 10px 20px;
+}
+
+.sql_query_div  h4 {
+    margin: 3px 0 0 15px;
+}
+
+.sql_query_div  form {
+    margin-bottom: 0;
+}
+
+.not_exist {
+    margin: 0 auto;
+    padding-top: 100px;
+    font-size: 28px;
+    width: 500px;
+}
+

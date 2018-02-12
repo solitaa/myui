@@ -1,0 +1,1 @@
+<?php echo "<a href='{$baseURL}select.php/browse/$chosenDbName/$chosenTableName/$i'> $i </a> "; ?>

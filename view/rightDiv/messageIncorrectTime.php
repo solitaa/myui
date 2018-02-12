@@ -1,0 +1,1 @@
+<p class="regexp_message">A date value can be only in H:i:s format.</p>

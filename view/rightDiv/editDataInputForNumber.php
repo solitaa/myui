@@ -1,0 +1,1 @@
+<td><input type="number" value="<?php if (isset($val)) echo"$val"; ?>" class="number_input" name="value[]"></td>

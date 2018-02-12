@@ -1,0 +1,1 @@
+<p class="not_exist"><?php echo"$chosenDbName"; ?> database does not exist!!!</p>
